@@ -162,7 +162,7 @@ article {
 }
 
 article {
-	h2 {font-size: 1.8em; margin-top: .1em; margin-bottom: .1em; line-height: .9em; font-family: 'ColaborateRegular', helvetica, arial, sans-serif;}
+	h2 {font-size: 1.8em; margin-top: .1em; margin-bottom: .1em; line-height: 1.1em; font-family: 'ColaborateRegular', helvetica, arial, sans-serif;}
 /* 	p { font-size: 2em; line-height: 1.4em;} */
 }
 
@@ -460,7 +460,7 @@ header ul li {
 
 
 article {
-	h2 { font-size: 1.6em; margin-top: .5em; line-height: .9em;}
+	h2 { font-size: 1.6em; margin-top: .5em; line-height: 1.1em;}
 /* 	p { font-size: 2em; line-height: 1.4em;} */
 }
 
@@ -484,10 +484,14 @@ Phone
 *********************/
 
 
-@media (max-width: 45em) {
+@media (max-width: 30em) {
   
 .sidebar { 
 	clear: both;
+}
+
+header ul li { 
+	a {font-size: .8em;}
 }
 
 p {

@@ -129,7 +129,7 @@ article {
     font-size: 1.8em;
     margin-top: .1em;
     margin-bottom: .1em;
-    line-height: .9em;
+    line-height: 1.1em;
     font-family: 'ColaborateRegular', helvetica, arial, sans-serif; }
 
 /* line 169, ../sass/style.scss */
@@ -455,7 +455,7 @@ Netbook
     article h2 {
       font-size: 1.6em;
       margin-top: .5em;
-      line-height: .9em; }
+      line-height: 1.1em; }
 
   /* line 467, ../sass/style.scss */
   .logo_margin {
@@ -471,11 +471,15 @@ Netbook
 /*********************
 Phone
 *********************/
-@media (max-width: 45em) {
+@media (max-width: 30em) {
   /* line 489, ../sass/style.scss */
   .sidebar {
     clear: both; }
 
-  /* line 493, ../sass/style.scss */
+  /* line 494, ../sass/style.scss */
+  header ul li a {
+    font-size: .8em; }
+
+  /* line 497, ../sass/style.scss */
   p {
     font-size: 1.1em; } }
