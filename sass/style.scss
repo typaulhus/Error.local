@@ -25,7 +25,8 @@ Tags: starkers, html5, naked, clean, basic
 
 /* variables */
 
-$widthMain: 65%;
+$widthMain: 70%;
+$widthSide: 25%;
 $corner: 5px;
 $link: #e8ad2d;
 $footerHeight: 30px;
@@ -258,9 +259,9 @@ nav {
 =============================================================*/
 
 aside {
-	width: 25%;
+	width: $widthSide;
 	float: right;
-	margin: 1%;
+/* 	margin: 1%; */
 }
 
 aside li {
@@ -268,7 +269,8 @@ aside li {
 }
 
 aside #s {
-	width: 80%;
+/* 	width: 80%; */
+	width: $widthSide;
 }
 
 .sidebar{
@@ -290,7 +292,7 @@ aside #s {
 aside ul {
 	list-style: none;
 	padding: 0px;
-	a {color: #333; &:hover {color: red;}}
+/* 	a {color: #333; &:hover {color: red;}} */
 }
 
 /* About template *****************************************/
@@ -419,7 +421,7 @@ Netbook
 *********************/
 
 
-@media (max-width: 60em) {
+@media (max-width: 70em) {
   
 .sidebar { 
 	display: none;
@@ -432,7 +434,7 @@ Netbook
 }
 
 p {
-	font-size: 1.1em;
+	font-size: 1.3em;
 }
 
 article {
@@ -477,7 +479,22 @@ article {
 }/* END 768query */
 
 
+/*********************
+Phone
+*********************/
 
+
+@media (max-width: 45em) {
+  
+.sidebar { 
+	clear: both;
+}
+
+p {
+	font-size: 1.1em;
+}
+
+}
 
 
 
