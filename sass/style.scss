@@ -111,6 +111,8 @@ $mainColor: #373d45;
 	color: #fff;
 }
 
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 
 body {
        font-family: 'ColaborateLightRegular', helvetica, arial, sans-serif;
@@ -224,8 +226,8 @@ header h1 {
 .logoimg{
 	height: 75px;
 	width: 75px;
-/* 	background-image: url("../images/tylogoyel.svg");  */
-	background-image: url("../images/logo_yellow75.jpg"); 
+	background-image: url("../images/tylogoyel.svg"); 
+/* 	background-image: url("../images/logo_yellow75.jpg");  */
 /* 	width: auto; */
 	background-repeat: no-repeat;
 	display: block;
