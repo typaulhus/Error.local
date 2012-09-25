@@ -88,14 +88,7 @@ $menulink.click(function() {
 				<?php wp_list_pages('title_li='); ?>
 				</ul>
 		</nav>
-<!--
-<a href="#menu" class="menu-link">Menu</a>		     
-<nav id="menu" role="navigation">
-	<ul>
-	<?php wp_list_pages('title_li='); ?>
-	</ul>
-</nav>
--->
+
 
     </header>
     <!--<?php get_sidebar(); ?>
