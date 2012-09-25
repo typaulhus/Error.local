@@ -30,6 +30,10 @@
     ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/style.css" media="screen" />
+
+<!-- Bootstrap -->
+<link href="<?php bloginfo('template_directory'); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <!--lightbox script -->
@@ -82,7 +86,7 @@ $menulink.click(function() {
 			 </h1>
 		 </hgroup>  
 		 
-		 <a href="#menu" class="menu-link">Menu</a>
+		 <a href="#menu" class="menu-link"><i class="icon-align-justify"></i>  Menu</a>
 		<nav id="menu" role="navigation">
 			<ul>
 				<?php wp_list_pages('title_li='); ?>

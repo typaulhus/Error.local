@@ -323,11 +323,11 @@ aside ul {
 		    padding: 1em;
 		}
 		nav[role=navigation] {
-			-webkit-transition: all 0.3s ease-out;  
+			-webkit-transition: all ease-out;  
 			-moz-transition: all 0.3s ease-out;
 			-ms-transition: all 0.3s ease-out;
 			-o-transition: all 0.3s ease-out;
-			transition: all 0.3s ease-out;
+			transition: all ease-out;
 		}
 		.js nav[role=navigation] {
 			overflow: hidden;
@@ -341,6 +341,10 @@ aside ul {
 				width: 100%;
 				background-color: $link;
 				@include border-radius($corner);
+				:hover { background-color: #b57d03;}
+				a { color: #fff;
+					font-size: 1.5em;
+				 }
 			}
 		}
 	
@@ -350,19 +354,16 @@ aside ul {
 			margin: 0;
 			padding: 0;
 /* 			border-top: 1px solid $link; */
-			:hover { background-color: #eda509;}
 			li {
-				margin-top: .5em;
-				margin-bottom: .5em;
+				margin-top: .2em;
+				margin-bottom: .2em;
 			}
 		}
 		nav[role=navigation] li a {
 			display: block;
 			padding: 0.3em;
 			text-align: center;
-			color: #fff;
 /* 			border-bottom: 1px solid $link; */
-			
 		}
 		
 		@media screen and (min-width: 35em) {
