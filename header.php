@@ -45,6 +45,10 @@
 
 <script src="<?php bloginfo('template_directory'); ?>/js/modernizr-1.6.min.js"></script>
 
+<!-- Adobe Edge fonts -->
+<script src="http://use.edgefonts.net/bree-serif.js"></script>
+
+<!-- toggle menu -->
 <script>
 $(document).ready(function() {
   $('body').addClass('js');

@@ -1,7 +1,7 @@
 /*
 Theme Name: Error New
 Theme URI: typaulh.us
-Description: Starkers basedtheme. Sass tester
+Description: Starkers basedtheme. Sass.
 Version: 1.0
 Author: Ty Paulhus
 Author URI: http://typaulh.us
@@ -157,6 +157,7 @@ article {
 	width: $widthMain;
 	float: left;
 	footer {color: #999; font-size: .7em;}
+	margin-bottom: 2em;
 }
 
 /*
@@ -166,7 +167,7 @@ article {
 */
 
 article {
-	h2 {font-size: 1.8em; margin-top: .1em; margin-bottom: .1em; line-height: 1.1em; font-family: 'ColaborateRegular', helvetica, arial, sans-serif;}
+	h2 {font-size: 1.8em; margin-top: .1em; margin-bottom: .1em; line-height: 1.1em; font-family: bree-serif, helvetica, arial, sans-serif;}
 /* 	p { font-size: 2em; line-height: 1.4em;} */
 }
 
@@ -277,7 +278,8 @@ aside #s {
 
 .sidebar{
 	font-size: 1em;
-	h3 {color: #e8ad2d; font-size: 1.2em; margin: 0px; padding-bottom: 10px; font-family: 'ColaborateRegular', helvetica, arial, sans-serif;}
+	/* h3 {color: #e8ad2d; font-size: 1.2em; margin: 0px; padding-bottom: 10px; font-family: 'ColaborateRegular', helvetica, arial, sans-serif;} */
+	h3 {color: #e8ad2d; font-size: 1.2em; margin: 0px; padding-bottom: 10px; font-family: bree-serif, helvetica, arial, sans-serif;}
 	li a{
 	color: $mainColor; 
 	&:hover {color: $link;} 
@@ -296,6 +298,8 @@ aside ul {
 	padding: 0px;
 }
 
+
+
 /* About template *****************************************/
 
 .aboutMain {
@@ -313,6 +317,11 @@ aside ul {
 	color: #fff;
 	font-size: 1em;
 	
+}
+
+.sidebarabout {
+	font-family: bree-serif, serif;
+	p { font-size: .8em; color: $link;}
 }
 
 /* TOGGLE NAV    =================================== */

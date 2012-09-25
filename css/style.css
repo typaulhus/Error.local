@@ -3,7 +3,7 @@
 /*
 Theme Name: Error New
 Theme URI: typaulh.us
-Description: Starkers basedtheme. Sass tester
+Description: Starkers basedtheme. Sass.
 Version: 1.0
 Author: Ty Paulhus
 Author URI: http://typaulh.us
@@ -118,7 +118,8 @@ p {
 article {
   /* 	width: 70%; */
   width: 70%;
-  float: left; }
+  float: left;
+  margin-bottom: 2em; }
   /* line 159, ../sass/style.scss */
   article footer {
     color: #999;
@@ -129,18 +130,18 @@ article {
 	margin-top: 15em;
 }
 */
-/* line 168, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 article {
   /* 	p { font-size: 2em; line-height: 1.4em;} */ }
-  /* line 169, ../sass/style.scss */
+  /* line 170, ../sass/style.scss */
   article h2 {
     font-size: 1.8em;
     margin-top: .1em;
     margin-bottom: .1em;
     line-height: 1.1em;
-    font-family: 'ColaborateRegular', helvetica, arial, sans-serif; }
+    font-family: bree-serif, helvetica, arial, sans-serif; }
 
-/* line 173, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 footer {
   clear: both;
   text-align: left;
@@ -148,65 +149,65 @@ footer {
   padding-top: 2em;
   padding-bottom: 2em; }
 
-/* line 181, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 .mainFooter {
   /* 	background-color: $link; */
   width: 80%;
   margin: 0 auto; }
 
-/* line 187, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 article footer {
   text-align: left;
   padding: 0px; }
-  /* line 190, ../sass/style.scss */
+  /* line 191, ../sass/style.scss */
   article footer a {
     color: #333; }
 
 /* header 
 =============================================================*/
-/* line 196, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 header ul li {
   display: block;
   margin-right: .6em;
   padding: .3em;
   float: left; }
-  /* line 201, ../sass/style.scss */
+  /* line 202, ../sass/style.scss */
   header ul li a {
     color: #e8ad2d;
     -webkit-transition: color .15s ease-in;
     -moz-transition: color 1s ease-in;
     -o-transition: color 1s ease-in;
     transition: color 1s ease-in; }
-    /* line 201, ../sass/style.scss */
+    /* line 202, ../sass/style.scss */
     header ul li a:hover {
       color: #bc8d27; }
 
-/* line 208, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .mainnav {
   width: 100%;
   /* 	height: 65px; */ }
 
-/* line 213, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 header {
   width: 100%;
   margin-bottom: 20px; }
 
-/* line 218, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 header h1 {
   background-repeat: no-repeat; }
 
-/* line 223, ../sass/style.scss */
+/* line 224, ../sass/style.scss */
 .current_page_item a {
   color: #999690; }
 
 /* for logo image replacement */
-/* line 227, ../sass/style.scss */
+/* line 228, ../sass/style.scss */
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden; }
 
-/* line 233, ../sass/style.scss */
+/* line 234, ../sass/style.scss */
 .logoimg {
   height: 75px;
   width: 75px;
@@ -219,46 +220,47 @@ header h1 {
   white-space: nowrap;
   overflow: hidden; }
 
-/* line 246, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 .logo_margin {
   margin: 0px 50px 0px 0px;
   /* 	padding-left: 30px; */ }
 
-/* line 251, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 .logo {
   float: left;
   /* 	width: 250px; */ }
 
-/* line 256, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 nav {
   line-height: 50px; }
 
 /* sidebar 
 =============================================================*/
-/* line 265, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 aside {
   width: 25%;
   float: right; }
 
-/* line 270, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 aside li {
   list-style: none; }
 
-/* line 274, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 aside #s {
   width: 25%; }
 
-/* line 278, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 .sidebar {
-  font-size: 1em; }
-  /* line 280, ../sass/style.scss */
+  font-size: 1em;
+  /* h3 {color: #e8ad2d; font-size: 1.2em; margin: 0px; padding-bottom: 10px; font-family: 'ColaborateRegular', helvetica, arial, sans-serif;} */ }
+  /* line 282, ../sass/style.scss */
   .sidebar h3 {
     color: #e8ad2d;
     font-size: 1.2em;
     margin: 0px;
     padding-bottom: 10px;
-    font-family: 'ColaborateRegular', helvetica, arial, sans-serif; }
-  /* line 281, ../sass/style.scss */
+    font-family: bree-serif, helvetica, arial, sans-serif; }
+  /* line 283, ../sass/style.scss */
   .sidebar li a {
     color: #373d45;
     line-height: 1.1em;
@@ -267,28 +269,28 @@ aside #s {
     padding-top: 8px;
     padding-bottom: 8px;
     border-bottom: 1px solid #e8ad2d; }
-    /* line 283, ../sass/style.scss */
+    /* line 285, ../sass/style.scss */
     .sidebar li a:hover {
       color: #e8ad2d; }
-  /* line 291, ../sass/style.scss */
+  /* line 293, ../sass/style.scss */
   .sidebar .textwidget {
     color: #928465;
     font-size: .8em;
     line-height: 1.2em; }
 
-/* line 294, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 aside ul {
   list-style: none;
   padding: 0px; }
 
 /* About template *****************************************/
-/* line 301, ../sass/style.scss */
+/* line 305, ../sass/style.scss */
 .aboutMain {
   width: 70%;
   float: left;
   clear: both; }
 
-/* line 307, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .rounded {
   background-color: #e8ad2d;
   padding: 5px;
@@ -302,14 +304,22 @@ aside ul {
   color: #fff;
   font-size: 1em; }
 
+/* line 322, ../sass/style.scss */
+.sidebarabout {
+  font-family: bree-serif, serif; }
+  /* line 324, ../sass/style.scss */
+  .sidebarabout p {
+    font-size: .8em;
+    color: #e8ad2d; }
+
 /* TOGGLE NAV    =================================== */
-/* line 320, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 a.menu-link {
   float: right;
   display: block;
   padding: 1em; }
 
-/* line 325, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 nav[role=navigation] {
   -webkit-transition: all ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -317,17 +327,17 @@ nav[role=navigation] {
   -o-transition: all 0.3s ease-out;
   transition: all ease-out; }
 
-/* line 332, ../sass/style.scss */
+/* line 341, ../sass/style.scss */
 .js nav[role=navigation] {
   overflow: hidden;
   max-height: 0; }
 
-/* line 336, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 nav[role=navigation].active {
   max-height: 15em;
   padding-top: 20px;
   width: 100%; }
-  /* line 340, ../sass/style.scss */
+  /* line 349, ../sass/style.scss */
   nav[role=navigation].active li {
     width: 100%;
     background-color: #e8ad2d;
@@ -336,25 +346,25 @@ nav[role=navigation].active {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px; }
-    /* line 344, ../sass/style.scss */
+    /* line 353, ../sass/style.scss */
     nav[role=navigation].active li :hover {
       background-color: #b57d03; }
-    /* line 345, ../sass/style.scss */
+    /* line 354, ../sass/style.scss */
     nav[role=navigation].active li a {
       color: #fff;
       font-size: 1.2em; }
 
-/* line 353, ../sass/style.scss */
+/* line 362, ../sass/style.scss */
 nav[role=navigation] ul {
   margin: 0;
   padding: 0;
   /* 			border-top: 1px solid $link; */ }
-  /* line 357, ../sass/style.scss */
+  /* line 366, ../sass/style.scss */
   nav[role=navigation] ul li {
     margin-top: .2em;
     margin-bottom: .2em; }
 
-/* line 362, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 nav[role=navigation] li a {
   display: block;
   /* 			padding: 0.1em; */
@@ -362,46 +372,46 @@ nav[role=navigation] li a {
   /* 			border-bottom: 1px solid $link; */ }
 
 @media screen and (min-width: 35em) {
-  /* line 370, ../sass/style.scss */
+  /* line 379, ../sass/style.scss */
   a.menu-link {
     display: none; }
 
-  /* line 373, ../sass/style.scss */
+  /* line 382, ../sass/style.scss */
   .js nav[role=navigation] {
     max-height: none; }
 
-  /* line 376, ../sass/style.scss */
+  /* line 385, ../sass/style.scss */
   nav#menu [role=navigation] {
     clear: both; }
 
-  /* line 379, ../sass/style.scss */
+  /* line 388, ../sass/style.scss */
   nav[role=navigation] ul {
     margin: 0 0 0 -0.25em;
     border: 0; }
 
-  /* line 384, ../sass/style.scss */
+  /* line 393, ../sass/style.scss */
   nav[role=navigation] li {
     display: inline-block;
     margin: 0 0.25em; }
 
-  /* line 388, ../sass/style.scss */
+  /* line 397, ../sass/style.scss */
   nav[role=navigation] li a {
     border: 0; } }
 /*Work template *****************************************/
-/* line 395, ../sass/style.scss */
+/* line 404, ../sass/style.scss */
 .workMain {
   width: 100%;
   float: left;
   clear: both; }
 
 /*Work ****************************************************/
-/* line 404, ../sass/style.scss */
+/* line 413, ../sass/style.scss */
 .g {
   /* 			background-color: green; */
   padding: 0.25em;
   overflow: hidden; }
 
-/* line 409, ../sass/style.scss */
+/* line 418, ../sass/style.scss */
 .g li {
   /* 			clear: both; */
   float: left;
@@ -409,152 +419,152 @@ nav[role=navigation] li a {
   padding: 0.25em;
   list-style: none; }
 
-/* line 416, ../sass/style.scss */
+/* line 425, ../sass/style.scss */
 .g img {
   display: block; }
 
-/* line 419, ../sass/style.scss */
+/* line 428, ../sass/style.scss */
 .g li:nth-child(odd) {
   clear: left; }
 
 @media screen and (min-width: 30em) {
-  /* line 423, ../sass/style.scss */
+  /* line 432, ../sass/style.scss */
   .g {
     /* 				background-color: black; */ }
 
-  /* line 426, ../sass/style.scss */
+  /* line 435, ../sass/style.scss */
   .g li {
     width: 45%; }
 
-  /* line 429, ../sass/style.scss */
+  /* line 438, ../sass/style.scss */
   .g li:nth-child(2n+1) {
     clear: left; }
 
-  /* line 432, ../sass/style.scss */
+  /* line 441, ../sass/style.scss */
   .g li:nth-child(odd) {
     clear: none; } }
 @media screen and (min-width: 40em) {
-  /* line 439, ../sass/style.scss */
+  /* line 448, ../sass/style.scss */
   .g {
     /* 				background-color: grey; */ }
 
-  /* line 442, ../sass/style.scss */
+  /* line 451, ../sass/style.scss */
   .g li {
     width: 31%; }
 
-  /* line 445, ../sass/style.scss */
+  /* line 454, ../sass/style.scss */
   .g li:nth-child(3n+1) {
     clear: left; }
 
-  /* line 448, ../sass/style.scss */
+  /* line 457, ../sass/style.scss */
   .g li:nth-child(odd) {
     clear: none; } }
 @media screen and (min-width: 60em) {
-  /* line 453, ../sass/style.scss */
+  /* line 462, ../sass/style.scss */
   .g {
     /* 				background-color: fuchsia; */ }
 
-  /* line 456, ../sass/style.scss */
+  /* line 465, ../sass/style.scss */
   .g li {
     width: 23%; }
 
-  /* line 459, ../sass/style.scss */
+  /* line 468, ../sass/style.scss */
   .g li:nth-child(4n+1) {
     clear: left; }
 
-  /* line 462, ../sass/style.scss */
+  /* line 471, ../sass/style.scss */
   .g li:nth-child(3n+1) {
     clear: none; } }
 @media screen and (min-width: 72em) {
-  /* line 467, ../sass/style.scss */
+  /* line 476, ../sass/style.scss */
   .g {
     /* 				background-color: yellow; */ }
 
-  /* line 470, ../sass/style.scss */
+  /* line 479, ../sass/style.scss */
   .g li {
     width: 18%; }
 
-  /* line 473, ../sass/style.scss */
+  /* line 482, ../sass/style.scss */
   .g li:nth-child(5n+1) {
     clear: left; }
 
-  /* line 476, ../sass/style.scss */
+  /* line 485, ../sass/style.scss */
   .g li:nth-child(4n+1) {
     clear: none; } }
 @media screen and (min-width: 90em) {
-  /* line 481, ../sass/style.scss */
+  /* line 490, ../sass/style.scss */
   .g {
     /* 				background-color: aqua; */ }
 
-  /* line 484, ../sass/style.scss */
+  /* line 493, ../sass/style.scss */
   .g li {
     width: 15%; }
 
-  /* line 487, ../sass/style.scss */
+  /* line 496, ../sass/style.scss */
   .g li:nth-child(6n+1) {
     clear: left; }
 
-  /* line 490, ../sass/style.scss */
+  /* line 499, ../sass/style.scss */
   .g li:nth-child(5n+1) {
     clear: none; } }
 /*********************
 Netbook
 *********************/
 @media (max-width: 70em) {
-  /* line 504, ../sass/style.scss */
+  /* line 513, ../sass/style.scss */
   .sidebar {
     clear: both;
     width: 100%;
     margin-top: 2em; }
 
-  /* line 510, ../sass/style.scss */
+  /* line 519, ../sass/style.scss */
   .container {
     width: 80%;
     padding-top: 30px;
     margin: 0px auto; }
 
-  /* line 516, ../sass/style.scss */
+  /* line 525, ../sass/style.scss */
   p {
     font-size: 1.3em; }
 
-  /* line 520, ../sass/style.scss */
+  /* line 529, ../sass/style.scss */
   article {
     width: 100%;
     margin: 0 auto; }
 
-  /* line 525, ../sass/style.scss */
+  /* line 534, ../sass/style.scss */
   nav {
     /* 	clear: both; */
     padding-left: 0px;
     /* 	margin: 0 auto; */
     /* 	float: left; */ }
-    /* line 530, ../sass/style.scss */
+    /* line 539, ../sass/style.scss */
     nav ul {
       padding-left: 0px; }
 
-  /* line 535, ../sass/style.scss */
+  /* line 544, ../sass/style.scss */
   header ul li {
     display: block;
     margin-right: .2em; }
-    /* line 538, ../sass/style.scss */
+    /* line 547, ../sass/style.scss */
     header ul li a {
       font-size: 1em; }
 
-  /* line 542, ../sass/style.scss */
+  /* line 551, ../sass/style.scss */
   article {
     /* 	p { font-size: 2em; line-height: 1.4em;} */ }
-    /* line 543, ../sass/style.scss */
+    /* line 552, ../sass/style.scss */
     article h2 {
       font-size: 1.6em;
       margin-top: .5em;
       line-height: 1.1em; }
 
-  /* line 547, ../sass/style.scss */
+  /* line 556, ../sass/style.scss */
   .logo_margin {
     margin: 0px 50px 0px 0px;
     padding-left: 0px; }
 
-  /* line 552, ../sass/style.scss */
+  /* line 561, ../sass/style.scss */
   .aboutMain {
     width: 100%;
     float: left;
@@ -564,16 +574,16 @@ Netbook
 Phone
 *********************/
 @media (max-width: 30em) {
-  /* line 569, ../sass/style.scss */
+  /* line 578, ../sass/style.scss */
   .sidebar {
     clear: both;
     width: 100%;
     margin-top: 2em; }
 
-  /* line 577, ../sass/style.scss */
+  /* line 586, ../sass/style.scss */
   header ul li a {
     font-size: .8em; }
 
-  /* line 580, ../sass/style.scss */
+  /* line 589, ../sass/style.scss */
   p {
     font-size: 1.1em; } }
