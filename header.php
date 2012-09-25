@@ -41,6 +41,19 @@
 
 <script src="<?php bloginfo('template_directory'); ?>/js/modernizr-1.6.min.js"></script>
 
+<script>
+$(document).ready(function() {
+  $('body').addClass('js');
+  var $menu = $('#menu'),
+    $menulink = $('.menu-link');
+  
+$menulink.click(function() {
+  $menulink.toggleClass('active');
+  $menu.toggleClass('active');
+  return false;
+});});
+</script>
+
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
  
@@ -68,16 +81,21 @@
 			 	<a href="<?php echo home_url( '/' ); ?>" class="logoimg">Home</a>
 			 </h1>
 		 </hgroup>  
-		     
-<nav>
+		 
+		 <a href="#menu" class="menu-link">Menu</a>
+		<nav id="menu" role="navigation">
+			<ul>
+				<?php wp_list_pages('title_li='); ?>
+				</ul>
+		</nav>
+<!--
+<a href="#menu" class="menu-link">Menu</a>		     
+<nav id="menu" role="navigation">
 	<ul>
-	<!--
-<li><h1 class="logo_margin">
-			<a href="<?php echo home_url( '/' ); ?>" class="logoimg">Home</a>
-		</h1></li>
--->
 	<?php wp_list_pages('title_li='); ?>
 	</ul>
 </nav>
+-->
 
     </header>
+    <!--<?php get_sidebar(); ?>

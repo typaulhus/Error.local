@@ -7,7 +7,6 @@
  * @since Starkers HTML5 3.0
  */
 ?>
-
 </div> <!--end container div -->
 <div class="footerPush"></div>
 
@@ -24,6 +23,20 @@
 
 	wp_footer();
 ?>
+<!--
+<script>
+$(document).ready(function() {
+  $('body').addClass('js');
+  var $menu = $('#menu'),
+    $menulink = $('.menu-link');
+  
+$menulink.click(function() {
+  $menulink.toggleClass('active');
+  $menu.toggleClass('active');
+  return false;
+});});
+</script>
+-->
 
 </body>
 </html>

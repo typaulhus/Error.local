@@ -125,6 +125,7 @@ body {
 .container {
 /* 	width: 90%; */
 	width: $maxWidth;
+	padding-top: 30px;
 	margin: 0 auto;
 }
 
@@ -258,7 +259,6 @@ nav {
 aside {
 	width: $widthSide;
 	float: right;
-/* 	margin: 1%; */
 }
 
 aside li {
@@ -266,7 +266,6 @@ aside li {
 }
 
 aside #s {
-/* 	width: 80%; */
 	width: $widthSide;
 }
 
@@ -289,7 +288,6 @@ aside #s {
 aside ul {
 	list-style: none;
 	padding: 0px;
-/* 	a {color: #333; &:hover {color: red;}} */
 }
 
 /* About template *****************************************/
@@ -310,6 +308,63 @@ aside ul {
 	font-size: 1em;
 	
 }
+
+/* TOGGLE NAV    =================================== */
+
+		a.menu-link {
+  	    	float: right;
+		    display: block;
+		    padding: 1em;
+		}
+		nav[role=navigation] {
+/* 			clear: both; */
+			-webkit-transition: all 0.3s ease-out;  
+			-moz-transition: all 0.3s ease-out;
+			-ms-transition: all 0.3s ease-out;
+			-o-transition: all 0.3s ease-out;
+			transition: all 0.3s ease-out;
+		}
+		.js nav[role=navigation] {
+			overflow: hidden;
+			max-height: 0;
+		}
+		nav[role=navigation].active {
+			max-height: 15em;
+		}
+		nav[role=navigation] ul {
+			margin: 0;
+			padding: 0;
+			border-top: 1px solid $link;
+		}
+		nav[role=navigation] li a {
+			display: block;
+			padding: 0.8em;
+			border-bottom: 1px solid $link;
+		}
+		
+		@media screen and (min-width: 35em) {
+			a.menu-link {
+			   display: none;
+			}
+			.js nav[role=navigation] {
+				max-height: none;
+			}
+			nav#menu [role=navigation] {
+				clear: both;
+			}
+			nav[role=navigation] ul {
+				margin: 0 0 0 -0.25em;
+				border: 0;
+			}
+			
+			nav[role=navigation]  li {
+				display: inline-block;
+				margin: 0 0.25em;
+			}
+			nav[role=navigation] li a {
+				border: 0;
+			}
+		}
 
 /*Work template *****************************************/
 
@@ -420,8 +475,12 @@ Netbook
 
 @media (max-width: 70em) {
   
-.sidebar { 
-	display: none;
+
+
+.sidebar {
+	clear: both;
+	width: 100%;
+	margin-top: 2em;
 }
 
 .container {
@@ -485,7 +544,10 @@ Phone
   
 .sidebar { 
 	clear: both;
+	width: 100%;
+	margin-top: 2em;
 }
+
 
 header ul li { 
 	a {font-size: .8em;}
