@@ -342,7 +342,7 @@ nav[role=navigation].active {
     /* line 345, ../sass/style.scss */
     nav[role=navigation].active li a {
       color: #fff;
-      font-size: 1.5em; }
+      font-size: 1.2em; }
 
 /* line 353, ../sass/style.scss */
 nav[role=navigation] ul {
@@ -357,7 +357,7 @@ nav[role=navigation] ul {
 /* line 362, ../sass/style.scss */
 nav[role=navigation] li a {
   display: block;
-  padding: 0.3em;
+  /* 			padding: 0.1em; */
   text-align: center;
   /* 			border-bottom: 1px solid $link; */ }
 
