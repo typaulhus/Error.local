@@ -18,15 +18,17 @@ Tags: starkers, html5, naked, clean, basic
 @import "compass";
 @import "compass/layout/sticky-footer";
 
-/* variables */
+
 
 $widthMain: 70%;
 $widthSide: 25%;
 $corner: 5px;
-$link: #e8ad2d;
+$link: #e8ad2d;  
+$link2: #cb8803;
 $footerHeight: 30px;
 $maxWidth: 80%;
 $mainColor: #373d45;
+$linkshadow: #c08104;
 
 /* @include sticky-footer($footerHeight, ".container", ".footerPush", "footer.mainFooter"); */
 
@@ -104,8 +106,8 @@ $mainColor: #373d45;
 /*changes selected type color*/
 ::selection {
 	background: #e8ad2d; /* Safari */
-	color: #fff;
-	}
+	color: #fff;	
+}
 ::-moz-selection {
 	background: #e8ad2d; /* Firefox */
 	color: #fff;
@@ -116,8 +118,10 @@ $mainColor: #373d45;
 
 body {
        font-family: 'ColaborateLightRegular', helvetica, arial, sans-serif;
-/*        background-image: url("../images/light_noise_diagonal.png"); */
+       background-image: url("../images/brillant/brillant.png");
        color: $mainColor;
+       text-shadow: 0px 1px 2px #fff;
+       background-color: #fff;
        line-height: 1.3em;
        font-size: 1.3em;
 }
@@ -221,7 +225,10 @@ header h1 {
 }
 
 .current_page_item {
-	a {color: #999690;}
+	a {
+	color: $link2;
+	border-bottom: 2px solid $link;	
+	}
 }
 
 /* for logo image replacement */
@@ -327,9 +334,17 @@ aside ul {
 /* TOGGLE NAV    =================================== */
 
 		a.menu-link {
+			color: #fff;
+			font-family: bree-serif;
   	    	float: right;
 		    display: block;
-		    padding: 1em;
+		    margin-top: .5em;
+		    background-color: $link;
+		    text-shadow: 0px 1px 2px $linkshadow;
+			padding: .5em;
+			text-align: center;
+		    @include border-radius($corner);
+		    padding-top: .6em;
 		}
 		nav[role=navigation] {
 			-webkit-transition: all ease-out;  
@@ -352,7 +367,9 @@ aside ul {
 				@include border-radius($corner);
 				:hover { background-color: #b57d03;}
 				a { color: #fff;
-					font-size: 1.2em;
+					font-family: bree-serif;
+					font-size: 1em;
+					text-shadow: 0px 1px 2px $linkshadow;
 				 }
 			}
 		}
@@ -395,7 +412,7 @@ aside ul {
 				margin: 0 0.25em;
 			}
 			nav[role=navigation] li a {
-				border: 0;
+/* 				border: 0; */
 			}
 		}
 

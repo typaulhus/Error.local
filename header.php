@@ -90,7 +90,7 @@ $menulink.click(function() {
 			 </h1>
 		 </hgroup>  
 		 
-		 <a href="#menu" class="menu-link"><i class="icon-align-justify"></i>  Menu</a>
+		 <a href="#menu" class="menu-link"><i class="icon-align-justify icon-white"></i> Menu</a>
 		<nav id="menu" role="navigation">
 			<ul>
 				<?php wp_list_pages('title_li='); ?>
